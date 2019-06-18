@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+ .navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.custom-sidenav{
+  padding: 0px;
+  background-color: #363a41;
+  min-height: 90vh;
+
+}
+
+.custom-sidenav ul.nav {
+  display: block;
+}
+
+.nav-link {
+  background-color: rgba(0, 0, 0, 0.09);
+  color: #bebebe;
+  font-size: 18px;
+}
+
+.nav-link i{
+  margin-right: 5px;
+}
+
+body{
+  background: #eaebec;
+}
+
+#example_wrapper, form {
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.15);
+  transition: all 0.25s ease-in-out;
+  background: white;
+  padding: 20px;
+}
+
+.top-navbar{
+  background-color: #363a41 !important;
+}
+
+.custom-sidenav .nav-item:hover{
+  background: #363a41;
+  color: red !important
+}
